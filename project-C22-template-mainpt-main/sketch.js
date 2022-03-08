@@ -40,17 +40,17 @@ function draw() {
   background(backgroundImg);
 
   //exibir a imagem do jogador usando a função image()
-  Image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
-  Image(playerimage,player.position.x,player.position.y,50,180)
+  image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
+  image(playerimage,player.position.x,player.position.y,50,180)
 
   //exibir a imagem da base do jogador usando a função image()
 
 
   Engine.update(engine);
 
-  //** */ Title
-  //fill("#FFFF");
-  //textAlign("center");
-  //textSize(40);
-  //text("ARQUEIRO ÉPICO", width / 2, 100);
+  // Title
+  fill("#FFFF");
+  textAlign("center");
+  textSize(40);
+  text("ARQUEIRO ÉPICO", width / 2, 100);
 }
